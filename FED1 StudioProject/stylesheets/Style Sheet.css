@@ -2,37 +2,122 @@
 }
 
 header {
-    background-color: darkgrey;
+    background-color: ghostwhite;
+}
+
+    header h1, header p {
+        text-align: center;
+    }
+
+main p {
+    font-family: Papyrus, Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+p {
+    background-color: ghostwhite;
+}
+aside h2, aside p {
+    text-align: center;
+}
+aside h2 {
+    font-size: 40px; 
+    font-family: Papyrus, Arial, Helvetica, sans-serif;
+}
+aside p {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 main {
-    background-color: darkgrey;
+    background-color: ghostwhite;
 }
 
 h1 {
     color: darkolivegreen;
-       font-size: 26px;
+    font-size: 35px;
 }
 
 h2 {
-    text-decoration: wavy;
-    font-weight: bolder;
+    color: maroon;
     font-size: 20px;
 }
 
-footer {
-    font-style:italic;
+dl {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: maroon;
+}
 
+dt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: maroon;
+    font-weight:bold
 }
+
+
+footer {
+    font-style: italic;
+}
+
 nav ul {
-    background-color:azure;
-    border-top: 3px dotted purple;
-    border-bottom: 3px dotted purple;
+    background-color: ghostwhite;
+    border-top: 3px dotted green;
+    border-bottom: 3px dotted green;
 }
+
 .header {
     padding: 60px;
-    text-align:left;
+    text-align: center;
     background: #1abc9c;
     color: white;
+    font-size: 40px;
+}
+
+    .header right {
+        padding-top: 8px;
+        float: right;
+        text-align: right;
+    }
+
+.h2 header {
+    font-size: 25px;
+    font-family: Papyrus, Arial, helvetica
+}
+
+h2.name {
+    font-family: Papyrus, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+ul {
+    direction: rtl;
+}
+
+p {
+    color: maroon;
     font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
 }
