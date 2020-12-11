@@ -1,2 +1,38 @@
 ﻿body {
 }
+
+header {
+    background-color: darkgrey;
+}
+
+main {
+    background-color: darkgrey;
+}
+
+h1 {
+    color: darkolivegreen;
+       font-size: 26px;
+}
+
+h2 {
+    text-decoration: wavy;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer {
+    font-style:italic;
+
+}
+nav ul {
+    background-color:azure;
+    border-top: 3px dotted purple;
+    border-bottom: 3px dotted purple;
+}
+.header {
+    padding: 60px;
+    text-align:left;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
