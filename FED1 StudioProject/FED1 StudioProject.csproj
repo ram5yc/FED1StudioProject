@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="html.html" />
+    <Content Include="stylesheets\custom.css" />
     <Content Include="stylesheets\Style Sheet.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />

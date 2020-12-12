@@ -4,14 +4,45 @@
 header {
     background-color: ghostwhite;
 }
+body header h1 {
+    text-align:center;
+    text-decoration:underline;
+}
+body h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Papyrus
+     
+}
+.bg{
+    height: 50%;
+
+}
+body nav right ul li {
+    display: inline-block;
+    height: 50px;
+    text-align:center;
+    margin:0 200px 0 0;
+    font-size: 25px
+}
 
     header h1, header p {
         text-align: center;
+    }
+    article ul li {
+        text-align:center;
     }
 
 main p {
     font-family: Papyrus, Arial, Helvetica, sans-serif;
     text-align:center;
+}
+body p{
+    text-align:center;
+    font-family: sans-serif;
+}
+p.name {
+    font-family: Papyrus;
 }
 p {
     background-color: ghostwhite;
@@ -56,6 +87,7 @@ dt {
 
 footer {
     font-style: italic;
+    text-align:left;
 }
 
 nav ul {
