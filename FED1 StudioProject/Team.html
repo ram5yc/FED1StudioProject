@@ -6,11 +6,23 @@
     <meta name="description" content="This is a page about our Team." />
     <meta name="keywords" content="Team, Delivery Drivers, Drivers" />
     <meta name="author" content="Rachel Mantei" />
+   
 
     <link href="stylesheets/Style Sheet.css" rel="stylesheet" />
 
+    <link href="stylesheets/custom.css" rel="stylesheet" />
+
+    <link href="stylesheets/Style Sheet.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
 </head>
+
 <body>
+    <div id="headerOverlay">
+        <h1>Brewergy</h1>
+        <p>Where Brewmasters teach the public their secrets</p>
+    </div>
     <nav style="text-align:right">
         <right>
             <ul>
@@ -30,25 +42,65 @@
         </right>
     </nav>
     <header>
-        <h1>Meet The Brewmasters That Craft The Best Beer In KC!</h1>
-        <p class="name">Come by and meet us today!</p>
-    </header>
-    <main>
-        <p class="name">
-            At Brewergy we take great pride in our products. Our specialized team of brew-masters craft the finest beers west of the Mississippi.
-        </p>
 
-        <aside>
-            <h2 class="name">Mary Malone</h2>
-            <p>Ever since Mary was young, her passion in life was to grow up and brew the most elegant beers. </p>
-            <h2>Rachel Malone</h2>
-            <p>Rachel did not take to crafting beers until after she graduated from college.</p>
-            <h2>Karelee Malone</h2>
-            <p>
+    </header>
+    <h1 style="text-align:center">Meet The Brewmasters That Craft The Best Beer In KC!</h1>
+    <p class="name" style="text-align:center">Come by and meet us today!</p>
+    <main>
+        <aside id="rightColumn">
+            <h2 id="asideHeader>" By Department></h2>
+            </aside>
+            <section id="leftColumn"></section>
+            <p class="name" style="text-align:center">
+                At Brewergy we take great pride in our products. Our specialized team of brew-masters craft the finest beers west of the Mississippi.
+            </p>
+
+
+            <div class="img-container">
+                <img src="images/professional-woman-1.jpg" alt="Mary Malone" id="MaryMalone" />
+            </div>
+            <h2 style="text-align:center">Mary Malone</h2>
+            <p style="text-align:center">President</p>
+            <p style="text-align:center">Ever since Mary was young, her passion in life was to grow up and brew the most elegant beers. </p>
+
+            <div class="img-container"><img src="images/professional woman 2.jpg" alt="Rachel Malone" id="RachelMalone" /></div>
+            <h2 style="text-align:center">Rachel Malone</h2>
+            <p style="text-align:center">Chief Financial Officer</pstyle="text-align:center">
+            <p style="text-align:center">Rachel did not take to crafting beers until after she graduated from college.</p>
+
+            <div class="img-container">
+                <img src="images/professional woman 3.jpg" alt="Karelee Malone" id="KareleeMalone" />
+            </div>
+            <h2 style="text-align:center">Karelee Malone</h2>
+            <p style="text-align:center">Administrative Assistant</pstyle="text-align:center">
+            <p style="text-align:center">
                 Along with Mary, Karelee had always felt like something was missing in her life. After receiving her Masters in Business Administration, she knew her next step was to open a brewery with her sisters. However, she dreamed that she will be able to eventually teach her unique brews to those around the KC area.
             </p>
-        </aside>
+            <br />
+            <br />
     </main>
+    <article>
+        <ul>
+            <li class="hover">
+                Email us at: <a href="mailto:learning@smallbiz.com">Learning@smallbiz.com</a>
+                <br />
+                Or call us at <a href="tel:01-81685753097">816-857-5309</a>
+            </li>
+
+            <li class="hover">Address: <a href="http://maps.google.com/?q=1200 1740 W 92 St, Kansas City, MO 64114" target="_blank">1740 W 92 St, Kansas City, MO 64114</a></li>
+        </ul>
+        <h2 class="hover">Follow us on social media</h2>
+        <a href="https://www.facebook.com/learnwithus"><i class="fab fa-facebook-square fa-2x" id="facebook"></i></a>
+        <a href="https://www.linkedin.com/learnwithus">
+            <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/weteachstuff">
+            <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+        </a>
+
+    </article>
+    
+   
     <footer>
         &copy; Copyright 2020 Rachel Mantei
     </footer>
