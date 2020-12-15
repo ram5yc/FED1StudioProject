@@ -223,12 +223,14 @@ a:hover {
     height: 150px;
     margin-right: 20px;
 }
-
+#collaboration {
+    float: right;
+    height: 200px;
+    margin-right:20px;
+}
 body section p {
-    background-color: ghostwhite;
-    width: 400px;
-    border: 5px solid green;
-    padding: 100px;
+    
+  
     margin: 20px;
 
 }
@@ -391,4 +393,39 @@ th{
 }
 td,th {
     padding:3em;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: ghostwhite;
+}
+
+.container {
+    margin: 30px auto;
+    width: 400px;
+    height: 400px;
+    background-color: ghostwhite;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+    .box
+
+{
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
 }

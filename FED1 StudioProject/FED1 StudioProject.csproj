@@ -71,11 +71,13 @@
     <Content Include="css\fonts.html" />
     <Content Include="html.html" />
     <Content Include="images\220px-SNice.svg.png" />
+    <Content Include="images\innovation.jpg" />
     <Content Include="images\photo 1.jfif" />
     <Content Include="images\professional woman 2.jpg" />
     <Content Include="images\professional woman 3.jpg" />
     <Content Include="images\professional-woman-1.jpg" />
     <Content Include="images\ready-to-wow-them-with-his-work-698690228-5b5dc818c9e77c0050f69a23.jpg" />
+    <Content Include="images\Screen-Shot-2016-11-04-at-12.26.24.png" />
     <Content Include="stylesheets\custom.css" />
     <Content Include="stylesheets\Social Media.css" />
     <Content Include="stylesheets\Style Sheet.css" />
