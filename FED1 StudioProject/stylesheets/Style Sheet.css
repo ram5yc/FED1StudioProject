@@ -18,11 +18,19 @@ body h2 {
     font-size:30px
 }
 body article h2 {
-    font-size: 20px
+    font-size: 20px;
+    text-align: center;
+}
+body article ul {
+    font-size: 20px;
+    text-align:center;
 }
 body section {
-    font-family: 'Satisfy', cursive;
-    font-size: 30px
+    font-family: 'Satisfy', 'Times New Roman';
+    font-size: 20px
+}
+body aside article {
+    text-align:center;
 }
 body h1 {
     text-align: center;
@@ -108,7 +116,7 @@ dt {
 
 footer {
     font-style: italic;
-    text-align:left;
+  text-align: left;
 }
 
 nav ul {
@@ -177,7 +185,9 @@ ul {
     list-style-type: none;
 }
 
-
+body section h2 {
+    text-align:right;
+}
 
 .fa-twitter {
     background: #55ACEE;
@@ -221,6 +231,12 @@ body section p {
     padding: 100px;
     margin: 20px;
 
+}
+body article ul{
+    margin: 50px;
+    text-align:center;
+    clear: right;
+    float:left;
 }
 .boxLeft {
     float:left;
@@ -266,7 +282,7 @@ boxLeft2 {
 }
 body section article ul {
     font-family: 'Times New Roman';
-    font-size: 25px;
+    font-size: 20px;
 }
 #RachelMalone {
     height: 300px;
@@ -321,11 +337,58 @@ header {
 #rightColumn {
     width: 25%;
     float:right;
+    height: 100%;
 }
+.b {
+    font-size: 40px;
+    color: darkolivegreen;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+article {
+    width: 50%;
+    float: left;
+    padding: 10px;
+   float:none;
+}
+
 aside {
-    display: block;
+    float: right;
+    width: 40%;
+    float: right;
+    color: darkolivegreen;
+    padding: 5px;
+    margin: 10px;
+    height: 100px;
+} 
+/*#region Social Media Links*/
+/*For Social Media Links on top of page*/
+
+#top-social {
+    position:relative;
+    z-index: 300;
+    float:right;
+    padding-top:5px;
+    padding-right:5px;
+    height: 150px;
 }
-#asideHeader {
-    background-color:darkgreen;
-    color:whitesmoke
+
+/*#endregion*/
+
+table,tr,td,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+section table tr td {
+    border:none;
+}
+th{
+    font-weight:bold;
+    text-align:center;
+}
+td,th {
+    padding:3em;
 }

@@ -6,7 +6,7 @@
     <meta name="description" content="This is a page about our Team." />
     <meta name="keywords" content="Team, Delivery Drivers, Drivers" />
     <meta name="author" content="Rachel Mantei" />
-   
+
 
     <link href="stylesheets/Style Sheet.css" rel="stylesheet" />
 
@@ -16,13 +16,30 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-    <div id="headerOverlay">
-        <h1>Brewergy</h1>
-        <p>Where Brewmasters teach the public their secrets</p>
-    </div>
+    <header>
+
+        <div id="headerOverlay">
+            <h1>Brewergy</h1>
+            <p>Where Brewmasters teach the public their secrets</p>
+        </div>
+        <div id="top-social">
+            <a href="https://www.facebook.com/learnwithus"><i class="fab fa-facebook-square fa-2x" id="facebook"></i></a>
+            <a href="https://www.linkedin.com/learnwithus">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/weteachstuff">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+    </header>
     <nav style="text-align:right">
         <right>
             <ul>
@@ -41,20 +58,28 @@
             </ul>
         </right>
     </nav>
-    <header>
 
-    </header>
-    <h1 style="text-align:center">Meet The Brewmasters That Craft The Best Beer In KC!</h1>
-    <p class="name" style="text-align:center">Come by and meet us today!</p>
+    <h1 style="text-align:center; margin:0">Meet The Brewmasters That Craft The Best Beer In KC!</h1>
+
     <main>
-        <aside id="rightColumn">
-            <h2 id="asideHeader>" By Department></h2>
-            </aside>
-            <section id="leftColumn"></section>
-            <p class="name" style="text-align:center">
-                At Brewergy we take great pride in our products. Our specialized team of brew-masters craft the finest beers west of the Mississippi.
-            </p>
+        <article id="rightColumn">
+            <h4 style="font-size:20px; text-align:center"> By Department</h4>
 
+            <section style="text-align:center; font-size:15px; margin:0">
+                <ul class="aside">
+                    <li>
+                        A
+                    </li>
+                    <li>
+                        B
+                    </li>
+                    <li>
+                        C
+                    </li>
+                </ul>
+            </section>
+        </article>
+        <section id="leftColumn">
 
             <div class="img-container">
                 <img src="images/professional-woman-1.jpg" alt="Mary Malone" id="MaryMalone" />
@@ -65,44 +90,49 @@
 
             <div class="img-container"><img src="images/professional woman 2.jpg" alt="Rachel Malone" id="RachelMalone" /></div>
             <h2 style="text-align:center">Rachel Malone</h2>
-            <p style="text-align:center">Chief Financial Officer</pstyle="text-align:center">
-            <p style="text-align:center">Rachel did not take to crafting beers until after she graduated from college.</p>
+            <p style="text-align:center">Chief Financial Officer</p>
+            <p style="text-align:center">Rachel did not take to crafting beersuntil after she graduated from college.</p>
 
             <div class="img-container">
                 <img src="images/professional woman 3.jpg" alt="Karelee Malone" id="KareleeMalone" />
             </div>
             <h2 style="text-align:center">Karelee Malone</h2>
-            <p style="text-align:center">Administrative Assistant</pstyle="text-align:center">
+            <p style="text-align:center">Administrative Assistant</p>
             <p style="text-align:center">
                 Along with Mary, Karelee had always felt like something was missing in her life. After receiving her Masters in Business Administration, she knew her next step was to open a brewery with her sisters. However, she dreamed that she will be able to eventually teach her unique brews to those around the KC area.
             </p>
-            <br />
-            <br />
-    </main>
-    <article>
-        <ul>
-            <li class="hover">
-                Email us at: <a href="mailto:learning@smallbiz.com">Learning@smallbiz.com</a>
-                <br />
-                Or call us at <a href="tel:01-81685753097">816-857-5309</a>
-            </li>
 
-            <li class="hover">Address: <a href="http://maps.google.com/?q=1200 1740 W 92 St, Kansas City, MO 64114" target="_blank">1740 W 92 St, Kansas City, MO 64114</a></li>
-        </ul>
-        <h2 class="hover">Follow us on social media</h2>
-        <a href="https://www.facebook.com/learnwithus"><i class="fab fa-facebook-square fa-2x" id="facebook"></i></a>
-        <a href="https://www.linkedin.com/learnwithus">
-            <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://twitter.com/weteachstuff">
-            <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
-        </a>
+        </section>
+        <div class="clear"></div>
+            <section>
+        
+                <table>
+                    <tr class="hover" style="border:1px solid white">
+                        <td>
+                            <a href="https://www.facebook.com/learnwithus"><i class="fab fa-facebook-square fa-2x" id="facebook"></i></a>
+                            <a href="https://www.linkedin.com/learnwithus">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a href="https://twitter.com/weteachstuff">
+                                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </td>
 
-    </article>
-    
-   
-    <footer>
-        &copy; Copyright 2020 Rachel Mantei
-    </footer>
+                        <td>
+                            <footer style="font-size:20px; font-family:'Times New Roman'" #right>
+                                &copy; Copyright 2020 Rachel Mantei
+                            </footer>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+
+
+
+
+
+
 </body>
 </html>
