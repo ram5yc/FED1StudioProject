@@ -1,0 +1,44 @@
+﻿body {
+   
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body main {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+body main section article{ /*font for classes bottom page*/
+font-size: 16px;
+}
+
+body section article section p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-left: 300px; /*to get text under "why choose us" directly below it*/
+    font-size:25px;
+    color:white;
+    padding-left: 100px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+h4{
+    font-family: 'Monserrat', sans-serif;
+    font-size:35px;
+    color: black;
+    padding-left: 30px;
+}
+h5 {
+    font-family: 'Monserrat', sans-serif;
+    color: black;
+    font-size: 35px;
+}
