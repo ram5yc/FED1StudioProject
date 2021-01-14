@@ -79,6 +79,11 @@
     <Content Include="images\Screen-Shot-2016-11-04-at-12.26.24.png" />
     <Content Include="images\shutterstock_135114548.jpg" />
     <Content Include="images\tanphoto.jpg" />
+    <Content Include="images\woman 1.jpeg" />
+    <Content Include="images\woman 2.jpeg" />
+    <Content Include="images\woman 3.jpeg" />
+    <Content Include="js\boostrap.min.js" />
+    <Content Include="js\javascript.js" />
     <Content Include="stylesheets\floats.css" />
     <Content Include="stylesheets\fonts.css" />
     <Content Include="stylesheets\Style Sheet.css" />
