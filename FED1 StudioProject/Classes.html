@@ -2,12 +2,214 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Class Structure</title>
+    <title>Small Business: We are the best in the business!</title>
+    <meta name="description" content="This is a site description." />
+    <meta name="keywords" content="beer" ,"classes" />
+    <meta name="author" content="Rachel Mantei
+          " />
+    <link href="stylesheets/Style Sheet.css" rel="stylesheet" /><!--Style Sheet-->
+
+    <link href="stylesheets/fonts.css" rel="stylesheet" /><!--FONTS-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
 </head>
-<body>
-    <h1>Lorem Ipsum</h1>
-    <p>
-        lolololol
-    </p>
+<!-- #region HEADER -->
+
+<body class="container">
+    <div class="brand-contact">
+        <header>
+            <div class="headerOverlay">
+                <nav>
+                    <ul id="navlist">
+                        <li>
+                            <a href="index.html">Home Page</a>
+                        </li>
+                        <li>
+                            <a href="Classes.html">Class Schedule</a>
+                        </li>
+                        <li>
+                            <a href="Team.html">Meet the Team</a>
+                        </li>
+                        <li class="last">
+                            <a href="Contact.html">Contact Page</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="top-social" , id="links">
+                <!--Top right social media-->
+                <a href="https://www.facebook.com/learnwithus">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.linkedin.com/learnwithus">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/weteachstuff">
+                    <i class="fas fa-hashtag"></i>
+                </a>
+            </div>
+        </header>
+    </div>
+    <!-- #endregion -->
+    <h1>The University</h1>
+    <section class="style">Come learn with us!</section>
+
+    <main class="backgroundOpacity">
+        <h3>Class List</h3>
+        <section>
+            <div class="contentLeft">
+                Potions
+            </div>
+        </section>
+        <section>
+            <div class="contentLeft">
+                Herbology
+            </div>
+        </section>
+        <section>
+            <div class="contentLeft">
+                Defense Against the Dark Arts
+            </div>
+        </section>
+        <section>
+            <div class="contentLeft">
+                History of Magic
+            </div>
+        </section>
+        <section>
+            <div class="contentLeft">
+                Astronomy
+            </div>
+        </section>
+        <section>
+            <div class="contentLeft">
+                Transfiguration
+            </div>
+        </section>
+        <br />
+        <section>
+            <h2>Beerology-Class List</h2>
+            <table>
+                <tr id="classSchedule">
+                    <td width="75">#</td>
+                    <td width="75">Class Name</td>
+                    <td width="75">Instructor</td>
+                    <td width="75">Meeting Time</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Potions</td>
+                    <td>Mary M</td>
+                    <td>10AM-11AM</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Herbology</td>
+                    <td>Karelee M</td>
+                    <td>11:30-12:30PM</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Defense Against the Dark Arts</td>
+                    <td>Rachel M</td>
+                    <td>12:45-1:15PM</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>History of Magic</td>
+                    <td>Travis L</td>
+                    <td>1:30-2:15PM</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Astronomy</td>
+                    <td>Jasmine L</td>
+                    <td>2:30-315PM</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Transfiguration</td>
+                    <td>Azula L</td>
+                    <td>3:30-4PM</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <article class="brand-contact-bottom">
+                <strong>Email:</strong> <a href="mailto:learning@smallbiz.com">Learning@smallbiz.com</a>
+                <br />
+                <strong>Phone Number:</strong> <a href="tel:01-81685753097">816-857-5309</a>
+                <br />
+                <strong>Address:</strong> <a href="http://maps.google.com/?q=1200 1740 W 92 St, Kansas City, MO 64114" target="_blank">1740 W 92 St, Kansas City, MO 64114</a>
+
+                <div id="links" , class="right bottom-social">
+                    <a href="https://www.facebook.com/learnwithus"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/learnwithus">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/weteachstuff">
+                        <i class="fas fa-hashtag"></i>
+                    </a>
+                </div>
+
+                <footer>
+                    &copy; Copyright 2020 Rachel Mantei
+                </footer>
+                <!-- #region JS -->
+
+                <div id="class-btn" class="button" onclick="openClassNav()">
+                    <!--div is for function to be able to click and open section-->
+                    <span class="vertical-text">CLASSES</span>
+                </div>
+
+                <!--Admin Side Nav- Container for the links-->
+                <div class="sidenav" id="class-nav">
+                    <a href="javascript:void(0)" class="close-btn" onclick="closeClassNav()">
+                        <!--For closing nav bar-->
+                        &times;
+                    </a>
+                    <!-- #endregion -->
+                    <a href="#classSchedule">Potions</a> <!--this will allow click to bring down to table -->
+                    <a href="#classSchedule">Herbology</a>
+                    <a href="#classSchedule">Defense Against the Dark Arts</a>
+                    <a href="#classSchedule">History of Magic</a>
+                    <a href="#classSchedule">Astronomy</a>
+                    <a href="#classSchedule">Transfiguration</a>
+                </div>
+
+                <script type="text/javascript">
+
+                    function toggleNav() { //allows function of removing or adding depending on the click
+                        let navList = document.getElementById("nav-list");
+                        navList.classList.toggle("expanded");
+
+                        let btnMenu = document.getElementById("menu-btn");
+                        if (navList.classList.contains("expanded")) {
+                            btnMenu.innerHTML = "&times;"
+                        } else {
+                            btnMenu.innerHTML = "&#9776;";
+                        }
+                    }
+
+                    function openClassNav() {
+                        document.getElementById("class-btn").style.display = "none"; //element will not be displayed
+                        document.getElementById("class-nav").style.width = "250px";
+                    }
+                    function closeClassNav() {
+                        document.getElementById("class-btn").style.display = "block"; //will be displayed as a block-line element
+                        document.getElementById("class-nav").style.width = "0"; //will push back the bar
+                    }
+
+                </script>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
