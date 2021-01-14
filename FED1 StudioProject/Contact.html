@@ -22,13 +22,12 @@
 
 </head>
 <!-- #region HEADER -->
-
-<body>
+<body class="container">
     <div class="brand-contact">
         <header>
             <div class="headerOverlay">
                 <nav>
-                    <ul>
+                    <ul id="navlist">
                         <li>
                             <a href="index.html">Home Page</a>
                         </li>
@@ -38,16 +37,17 @@
                         <li>
                             <a href="Team.html">Meet the Team</a>
                         </li>
-                        <li>
+                        <li class="last">
                             <a href="Contact.html">Contact Page</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-
-            <div class="top-social", id="links">
+            <div class="top-social" , id="links">
                 <!--Top right social media-->
-                <a href="https://www.facebook.com/learnwithus"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/learnwithus">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
                 <a href="https://www.linkedin.com/learnwithus">
                     <i class="fab fa-linkedin"></i>
                 </a>
@@ -55,33 +55,44 @@
                     <i class="fas fa-hashtag"></i>
                 </a>
             </div>
+
         </header>
     </div>
     <!-- #endregion -->
     <h1>The University</h1>
     <section class="style">Come learn with us!</section>
+
     <main class="backgroundOpacity">
-        <h1>Contact Us</h1>
-        <br />
+        <h2>Contact Us</h2>
 
-        <p style="text-align:center">We would love to hear from you!</p>
-
-
-        <p class="center">
+        <p>We would love to hear from you!</p>
+        <p>
             If you have any questions, concerns, or suggestions, feel free to send a message via e-mail, or you can speak to a live representative by calling the number below.
         </p>
-        <section">
-            <section style="font-size:20px">
-                <strong>Email:</strong> <a href="mailto:learning@smallbiz.com">Learning@smallbiz.com</a>
+        <section>
+            <section>
+                <div class="infoStyle">
+                    <strong>Email:</strong> <a href="mailto:learning@smallbiz.com">Learning@smallbiz.com</a>
+                </div>
                 <br />
-                <strong>Phone Number:</strong> <a href="tel:01-81685753097">816-857-5309</a>
                 <br />
-                <strong>Address:</strong> <a href="http://maps.google.com/?q=1200 1740 W 92 St, Kansas City, MO 64114" target="_blank">1740 W 92 St, Kansas City, MO 64114</a>
+                <div class="infoStyle">
+                    <strong>Phone Number:</strong> <a href="tel:01-81685753097">816-857-5309</a>
+                </div>
+                <br />
+                <br />
+                <div class="infoStyle">
+                    <strong>Address:</strong> <a href="http://maps.google.com/?q=1200 1740 W 92 St, Kansas City, MO 64114" target="_blank">1740 W 92 St, Kansas City, MO 64114</a>
+                </div>
+                <br />
+                <br /> <!--to add space below Ad-->
+
             </section>
             <article class="brand-contact">
 
-                <div id="links", class="bottom-social">
-                    <a href="https://www.facebook.com/learnwithus"><i class="fab fa-facebook-f"></i>
+                <div id="links" , class="bottom-social">
+                    <a href="https://www.facebook.com/learnwithus">
+                        <i class="fab fa-facebook-f"></i>
                     </a>
                     <a href="https://www.linkedin.com/learnwithus">
                         <i class="fab fa-linkedin"></i>
@@ -90,6 +101,8 @@
                         <i class="fas fa-hashtag"></i>
                     </a>
                 </div>
+                <br />
+                <br /> <!--to give room for social media at bottom-->
 
                 <footer>
                     &copy; Copyright 2020 Rachel Mantei

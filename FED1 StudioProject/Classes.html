@@ -54,7 +54,6 @@
                     <i class="fas fa-hashtag"></i>
                 </a>
             </div>
-
         </header>
     </div>
     <!-- #endregion -->
@@ -93,7 +92,7 @@
                 Transfiguration
             </div>
         </section>
-
+        <br />
         <section>
             <h2>Beerology-Class List</h2>
             <table>
@@ -163,18 +162,21 @@
                 <footer>
                     &copy; Copyright 2020 Rachel Mantei
                 </footer>
+                <!-- #region JS -->
 
                 <div id="class-btn" class="button" onclick="openClassNav()">
+                    <!--div is for function to be able to click and open section-->
                     <span class="vertical-text">CLASSES</span>
                 </div>
 
                 <!--Admin Side Nav- Container for the links-->
                 <div class="sidenav" id="class-nav">
-                    <a href="javascript:void(0)" class="close-btn" onclick="closeAdminNav()">
+                    <a href="javascript:void(0)" class="close-btn" onclick="closeClassNav()">
+                        <!--For closing nav bar-->
                         &times;
                     </a>
-
-                    <a href="#classSchedule">Potions</a> <!--this # holder will not allow you to link to anything just yet-->
+                    <!-- #endregion -->
+                    <a href="#classSchedule">Potions</a> <!--this will allow click to bring down to table -->
                     <a href="#classSchedule">Herbology</a>
                     <a href="#classSchedule">Defense Against the Dark Arts</a>
                     <a href="#classSchedule">History of Magic</a>
@@ -184,11 +186,10 @@
 
                 <script type="text/javascript">
 
-                    function toggleNav() {
+                    function toggleNav() { //allows function of removing or adding depending on the click
                         let navList = document.getElementById("nav-list");
                         navList.classList.toggle("expanded");
 
-                        //Toggle hamburger menu close button
                         let btnMenu = document.getElementById("menu-btn");
                         if (navList.classList.contains("expanded")) {
                             btnMenu.innerHTML = "&times;"
@@ -198,13 +199,14 @@
                     }
 
                     function openClassNav() {
-                        document.getElementById("class-btn").style.display = "none";
+                        document.getElementById("class-btn").style.display = "none"; //element will not be displayed
                         document.getElementById("class-nav").style.width = "250px";
                     }
-                    function closeAdminNav() {
-                        document.getElementById("class-btn").style.display = block;
-                        document.getElementById("class-nav").style.width = "0";
+                    function closeClassNav() {
+                        document.getElementById("class-btn").style.display = "block"; //will be displayed as a block-line element
+                        document.getElementById("class-nav").style.width = "0"; //will push back the bar
                     }
+
                 </script>
             </article>
         </section>

@@ -4,27 +4,34 @@
 }
 
 .container {
-    width: 960px;
+    width: 1350px;
     margin: 0 auto;
     padding: 10px 25px;
     border: 10px solid #010101;
     background: #fff;
 }
+.infoStyle{
+    border-bottom: double;
+    border-top: double;
+    border-color:white;
+    font-weight: bold;
+}
 
 .backgroundOpacity { /*adds shading to background photo*/
     height: 100%;
-    background-repeat: no-repeat;
-    background-position: center 50%;
     border: -50px;
-    padding: -100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/a-book-of-magic-1427868.jpg')
+    bottom: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/book.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.style { /*The university sign on left each page*/
+/*The university sign on left each page*/
+.style {
     position: relative;
-    top: -30px;
-    left: 20px;
+    top:-35px;
+    text-align:left;
     font-size: 25px;
+    color: black;
 }
 
 h1 {
@@ -171,9 +178,7 @@ footer {
 
 
 .brand-contact { /*For border on top of page*/
-    background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
     min-height: 0px;
     background-color: white;
     border-top: 20px;
@@ -200,7 +205,10 @@ table {
     color: ghostwhite;
     margin: 0 auto;
     float: inherit;
+    background-color: rgb(189, 188, 188);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 }
+
 
 body section section { /* contact page email to address*/
     text-align: center;
@@ -211,22 +219,28 @@ social-media-icons {
     font-size: 15em;
 }
 
-table {
-    background-color: rgb(189, 188, 188);
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-}
-
 /*region for social media*/
-#links > a {
-    text-decoration: none;
-    text-align: right;
-}
 
 a:hover {
-    opacity: .7;
-    color: darkseagreen;
+    color: blue;
     text-decoration: underline;
-    border: 2px solid white;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .contentLeft { /*all the boxes in the class page*/
