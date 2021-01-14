@@ -1,22 +1,318 @@
-﻿body {
+﻿body { /*background*/
+    background-color: white;
+    background-repeat: repeat;
 }
 
-header {
-    background-color:darkgrey;
+.container {
+    width: 1350px;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border: 10px solid #010101;
+    background: #fff;
+}
+.infoStyle{
+    border-bottom: double;
+    border-top: double;
+    border-color:white;
+    font-weight: bold;
 }
 
-main {
-    background-color: darkgrey;
+.backgroundOpacity { /*adds shading to background photo*/
+    height: 100%;
+    border: -50px;
+    bottom: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/book.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*The university sign on left each page*/
+.style {
+    position: relative;
+    top:-35px;
+    text-align:left;
+    font-size: 25px;
+    color: black;
 }
 
 h1 {
-    color:darkolivegreen
-        font-size: 26px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
 }
 
 h2 {
-    text-decoration: wavy;
-    font-weight: bolder;
-    font-size: 20px;
+    color: ghostwhite;
+    text-align: center;
+    font-size: 45px;
+    padding-right: 100px;
 }
 
+header h1, header p { /*top left of page*/
+    margin: 7px 0 7px 150px;
+}
+
+header h1 { /*Top left of the page*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    color: black;
+    text-align: left;
+    letter-spacing: .1em;
+}
+
+body main section { /*for class table section*/
+}
+
+body section article section p { /*Paragraphs within homepage*/
+    font-size: 20px;
+    color: ghostwhite;
+}
+
+p { /*all paragraphs*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: ghostwhite;
+}
+
+.bio section { /*about us and all under*/
+    width: 85%;
+    margin: 0 auto;
+}
+
+.team { /*photo on home page*/
+    float: left;
+    height: 150px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.collaboration { /*photo on home page*/
+    float: right;
+    height: 200px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.top-social { /*top right social media*/
+    position: relative;
+    z-index: 300;
+    float: right;
+    padding-top: 50px;
+    padding-right: 5px;
+    height: 150px;
+    font-size: 1em;
+}
+
+.bottom-social { /*top right social media*/
+    position: relative;
+    z-index: 300;
+    float: right;
+    padding-top: 10px;
+    padding-right: 5px;
+    height: 150px;
+    font-size: 2em;
+}
+/*FOR THE NAV BAR*/
+#navlist li {
+    display: inline;
+    padding-right: 0.9em;
+    padding-left: 0.9em;
+    border-right: 1px solid #009;
+}
+
+    #navlist li.last {
+        border: none;
+    }
+
+#navlist {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+    #navlist a {
+        color: black;
+        text-decoration: none;
+    }
+
+        #navlist a:hover {
+            color: #a30bb4;
+            text-decoration: none;
+        }
+
+
+body section article { /*text in contact footer section*/
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+body main section div { /*text within boxes on Class page*/
+    color: ghostwhite;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    height: 100%;
+    margin: 0;
+}
+
+
+.brand-contact { /*For border on top of page*/
+    background-attachment: fixed;
+    min-height: 0px;
+    background-color: white;
+    border-top: 20px;
+}
+
+.brand-contact-bottom { /*For border below the page*/
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 0px;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.headerOverlay { /*FOR HEADING AND PHOTO IN TOP LEFT*/
+    background-image: url('../images/shutterstock_135114548.jpg');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 3% center;
+    z-index: 1030;
+}
+
+table {
+    color: ghostwhite;
+    margin: 0 auto;
+    float: inherit;
+    background-color: rgb(189, 188, 188);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+}
+
+
+body section section { /* contact page email to address*/
+    text-align: center;
+    color: ghostwhite;
+}
+
+social-media-icons {
+    font-size: 15em;
+}
+
+/*region for social media*/
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.contentLeft { /*all the boxes in the class page*/
+    width: 20%;
+    height: 200px;
+    padding: 50px;
+    border: 5px solid white;
+    text-align: left;
+    float: left;
+    margin: 40px;
+}
+
+#classSchedule { /* For class list box in class tab*/
+    background-color: rgb(0,0,0);
+    height: 10px;
+    width: 20px;
+    color: #FFF;
+}
+/*end region*/
+
+/*For Admin Side Nav*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1030; /*higher # puts it above, negative or lower number puts it behind*/
+    top: 0; /*all the way to the top*/
+    left: 0; /*all the way to the left*/
+    background-color: rgba(0,0,0,.9);
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: .5s; /*important because when you change from one state of an element to another the transition will last .5s*/
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: .3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+.button {
+    font-family: sans-serif;
+    background: rgba(0,0,0,.5);
+    height: 100%;
+    width: 20px;
+    z-index: 1030;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.vertical-text {
+    position: absolute; /*moves it around the parent element (i.e body main div...etc.)*/
+    top: 45%;
+    left: 0;
+    writing-mode: vertical-lr; /*To get text to go vertical*/
+    color: white;
+    font-weight: bold;
+}
