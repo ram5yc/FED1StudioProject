@@ -1,19 +1,21 @@
-﻿body { /*background*/
+﻿
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border: 10px solid #010101;
+    background: white;
+}
+
+body { /*background*/
     background-color: white;
     background-repeat: repeat;
 }
 
-.container {
-    width: 1350px;
-    margin: 0 auto;
-    padding: 10px 25px;
-    border: 10px solid #010101;
-    background: #fff;
-}
-.infoStyle{
+.infoStyle {
     border-bottom: double;
     border-top: double;
-    border-color:white;
+    border-color: white;
     font-weight: bold;
 }
 
@@ -28,12 +30,90 @@
 /*The university sign on left each page*/
 .style {
     position: relative;
-    top:-35px;
-    text-align:left;
+    top: -35px;
+    text-align: left;
     font-size: 25px;
     color: black;
 }
 
+#leftColumn{
+    float:left;
+    width: 75%;
+    border-right: 2px solid white;
+}
+#rightColumn {
+
+    width: 20%;
+}
+
+/*PHOTOS FOR TEAM PAGES*/
+#ps {
+    float: right;
+    height: 200px;
+    margin: 0 10px 0 5px;
+    border: 5px solid white;
+}
+#mm {
+    float: right;
+    height: 200px;
+    margin-left: 10px;
+    margin: 0 10px 0 5px;
+    border-left: 30px;
+    border: 5px solid white;
+}
+#ss {
+    float: left;
+    height: 200px;
+    margin-right: 10px;
+    margin: 0 5px 0 10px;
+    border-right: 30px;
+    border: 5px solid white;
+}
+#ff {
+    float: left;
+    height: 200px;
+    margin-right: 10px;
+    margin: 0 5px 0 10px;
+    border-right: 30px;
+    border: 5px solid white;
+}
+#hs {
+    float: right;
+    height: 200px;
+    margin: 0 10px 0 5px;
+    border: 5px solid white;
+}
+
+#st {
+    float: left;
+    height: 200px;
+    margin-right: 10px;
+    margin: 0 5px 0 10px;
+    border-right: 30px;
+    border: 5px solid white;
+}
+
+#du {
+    float: right;
+    height: 200px;
+    margin: 0 10px 0 5px;
+    border: 5px solid white;
+}
+#ab {
+    float: left;
+    height: 200px;
+    margin-right: 10px;
+    margin: 0 5px 0 10px;
+    border-right: 30px;
+    border: 5px solid white;
+}
+
+#cf {
+    float: right;
+    height: 200px;
+    margin: 0 10px 0 5px;
+    border: 5px solid white;
+}
 h1 {
     text-align: left;
     color: black;
@@ -41,23 +121,23 @@ h1 {
     font-size: 45px;
 }
 
-.center {
-    text-align: center;
-}
-
-.right {
-    text-align: right;
-}
-
-.left {
-    text-align: left;
-}
-
 h2 {
     color: ghostwhite;
     text-align: center;
     font-size: 45px;
-    padding-right: 100px;
+    padding-left: 100px;
+    text-decoration: double;
+}
+
+h3 {
+    text-align: center;
+    padding-left: 300px; /*to get text under "why choose us" directly below it*/
+    font-size: 25px;
+    color: white;
+    padding-left: 100px;
+}
+.small{
+    font-size: 15px;
 }
 
 header h1, header p { /*top left of page*/
@@ -113,7 +193,7 @@ p { /*all paragraphs*/
     padding-top: 50px;
     padding-right: 5px;
     height: 150px;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .bottom-social { /*top right social media*/
@@ -128,9 +208,10 @@ p { /*all paragraphs*/
 /*FOR THE NAV BAR*/
 #navlist li {
     display: inline;
-    padding-right: 0.9em;
-    padding-left: 0.9em;
+    padding-right: 0.2em;
+    padding-left: 0.4em;
     border-right: 1px solid #009;
+    margin: 0;
 }
 
     #navlist li.last {
@@ -138,8 +219,8 @@ p { /*all paragraphs*/
     }
 
 #navlist {
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
 }
@@ -151,9 +232,8 @@ p { /*all paragraphs*/
 
         #navlist a:hover {
             color: #a30bb4;
-            text-decoration: none;
+            text-decoration: underline;
         }
-
 
 body section article { /*text in contact footer section*/
     margin: 0 auto;
@@ -176,7 +256,6 @@ footer {
     margin: 0;
 }
 
-
 .brand-contact { /*For border on top of page*/
     background-attachment: fixed;
     min-height: 0px;
@@ -190,34 +269,73 @@ footer {
     background-size: cover;
     min-height: 0px;
     background-color: white;
-    padding-top: 30px;
+    padding-top: 10px;
+    text-align:center;
 }
 
 .headerOverlay { /*FOR HEADING AND PHOTO IN TOP LEFT*/
-    background-image: url('../images/shutterstock_135114548.jpg');
+    background-image: url('../images/wand.jpg');
     background-repeat: no-repeat;
     background-size: 150px;
     background-position: 3% center;
     z-index: 1030;
 }
-
+/*FOR TABLE IN CLASSES*/
 table {
-    color: ghostwhite;
-    margin: 0 auto;
-    float: inherit;
-    background-color: rgb(189, 188, 188);
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 25%;
 }
 
-
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px, 3px, 3px, 2px;
+}
+td{
+    background-color:#5c5959;
+    opacity: .8;
+    
+}
+th{
+    background-color:white;
+}
+/*END TABLE FOR CLASSES*/
 body section section { /* contact page email to address*/
     text-align: center;
     color: ghostwhite;
 }
 
-social-media-icons {
-    font-size: 15em;
+/*FOR CLASS PAGE WITH */
+.box {
+    float: left;
+    width: 30%;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    height: 200px;
+    color: white;
 }
+/*END FOR CLASSES REGION*/
+
+/*ID's for box to pop to and change between screens*/
+#one{
+}
+#two {
+}
+#three {
+}
+#four {
+}
+#five {
+}
+#six {
+}
+/*FOR CLASS TO POP TO SECTION*/
+
+
+
 
 /*region for social media*/
 
@@ -225,8 +343,10 @@ a:hover {
     color: blue;
     text-decoration: underline;
 }
+
+
 a:link {
-    color: green;
+    color: blue;
     background-color: transparent;
     text-decoration: none;
 }
@@ -243,6 +363,7 @@ a:active {
     text-decoration: underline;
 }
 
+
 .contentLeft { /*all the boxes in the class page*/
     width: 20%;
     height: 200px;
@@ -251,13 +372,6 @@ a:active {
     text-align: left;
     float: left;
     margin: 40px;
-}
-
-#classSchedule { /* For class list box in class tab*/
-    background-color: rgb(0,0,0);
-    height: 10px;
-    width: 20px;
-    color: #FFF;
 }
 /*end region*/
 
@@ -316,4 +430,3 @@ a:active {
     color: white;
     font-weight: bold;
 }
-
