@@ -1,5 +1,5 @@
 ﻿
-.container {
+.containerMain {
     width: 1200px;
     margin: 0 auto;
     padding: 10px 25px;
@@ -23,8 +23,9 @@ body { /*background*/
     height: 100%;
     border: -50px;
     bottom: 200px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/book.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/clock.jpg');
     background-repeat: no-repeat;
+    background-position: 0 5px 10px 0;
     background-size: cover;
 }
 /*The university sign on left each page*/
@@ -34,6 +35,7 @@ body { /*background*/
     text-align: left;
     font-size: 25px;
     color: black;
+    font-family: 'IM Fell DW Pica', serif;
 }
 
 #leftColumn{
@@ -107,7 +109,21 @@ body { /*background*/
     border-right: 30px;
     border: 5px solid white;
 }
+#pw {
+    float: right;
+    height: 200px;
+    margin: 0 10px 0 5px;
+    border: 5px solid white;
+}
 
+#bw {
+    float: left;
+    height: 200px;
+    margin-right: 10px;
+    margin: 0 5px 0 10px;
+    border-right: 30px;
+    border: 5px solid white;
+}
 #cf {
     float: right;
     height: 200px;
@@ -130,11 +146,9 @@ h2 {
 }
 
 h3 {
-    text-align: center;
-    padding-left: 300px; /*to get text under "why choose us" directly below it*/
+    text-align: center; 
     font-size: 25px;
     color: white;
-    padding-left: 100px;
 }
 .small{
     font-size: 15px;
@@ -172,17 +186,23 @@ p { /*all paragraphs*/
     margin: 0 auto;
 }
 
-.team { /*photo on home page*/
+.quidditch{ /*photo on home page*/
     float: left;
-    height: 150px;
-    margin-right: 20px;
+    height: 250px;
+    margin: 0 20px 0 20px;
     box-shadow: 10px 10px 5px #ccc;
 }
 
-.collaboration { /*photo on home page*/
+.hogsmeade { /*photo on home page*/
     float: right;
     height: 200px;
     margin-right: 20px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+.hogwarts {
+    float: left;
+    height: 200px;
+    margin: 0 20px 0 20px;
     box-shadow: 10px 10px 5px #ccc;
 }
 
@@ -219,7 +239,7 @@ p { /*all paragraphs*/
     }
 
 #navlist {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'IM Fell DW Pica', serif;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
@@ -429,4 +449,27 @@ a:active {
     writing-mode: vertical-lr; /*To get text to go vertical*/
     color: white;
     font-weight: bold;
+}
+
+
+
+#lightbox-container {
+    position: fixed; /*Fixed position means you are moving element in relation to the entire viewport*/
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 65px;
+    display: none;
+}
+
+    #lightbox-container p {
+        color: #fff;
+    }
+
+#lightbox-content img {
+    border: 10px solid gray;
+    margin: auto;
 }
