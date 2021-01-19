@@ -9,6 +9,9 @@
           " />
     <title>Fed1 Studio Project | Rachel Mantei</title>
 
+    <!--Favicon-->
+    <link rel="icon" href="/images/favicon.ico" />
+
     <!-- Bootstrap Theme -->
     <link href="css/bootstrap-flatly-theme.min.css" rel="stylesheet" />
     <link href="stylesheets/Style Sheet.css" rel="stylesheet" /><!--Style Sheet-->
@@ -18,7 +21,7 @@
     <link href="stylesheets/Style Sheet.css" rel="stylesheet" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 
@@ -40,7 +43,7 @@
                         <li>
                             <a href="Classes.html">Class Schedule</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="Team.html">Meet the Team</a>
                         </li>
                         <li class="last">
@@ -65,62 +68,63 @@
         </header>
     </div>
     <!-- #endregion -->
-    <h1>The University</h1>
-    <section class="style">Come learn with us!</section>
+    <h1>Hogwarts University</h1>
+    <section class="style">Where the magic comes to life!</section>
 
-    <main class="backgroundOpacity ">
+    <main class="backgroundOpacityNext">
 
-        <aside id="leftColumn" class="container">
-                <h2>Heads of Houses</h2>
-                <div>
-                    <img src="images/mm.jpg" alt="Minerva McGonogall" id="mm" class="img-reponsive thumb" />
+        <aside class="rightColumn">
+            <h3>By Department</h3>
+            <ul style="font-size:20px">
+                <li style="list-style-type:none">
+                    <a href="Team.html">Heads of Houses</a>
+                </li>
+                <li style="list-style-type:none">
+                    <a href="Instructors.html">Instructor</a>
+                </li>
+                <li style="list-style-type:none">
+                    <a href="Administration.html">Administration</a>
+                </li>
+                <li style="list-style-type:none">
+                    <a href="Prefects.html">Prefects</a>
+                </li>
+            </ul>
+        </aside>
+
+        <aside class="leftColumn container">
+            <h2>Heads of Houses</h2>
+            <section>
+                <img src="images/mm.jpg" alt="Minerva McGonogall" id="mm" class="img-reponsive thumb" />
                 <p>
                     <strong>Professor Minerva McGonagall</strong> is the Transfiguration teacher at Hogwarts, head of Gryffindor house and deputy headmistress of Hogwarts during Harry's first year. She is described as fair, but very strict. Amongst other things, she led Harry to his sorting in his first year. She has the ability to transform into a tabby cat, because she is animaugus. She is the Head of House for Gryffindor.
                 </p>
                 <br />
-                <div>
+                <section>
                     <img src="images/Severus_Snape.jpg" alt="Severus Snape" id="ss" class="img-reponsive thumb" />
                     <p>
                         <strong>Professor Severus Snape</strong> <i>(9 January, 1960– 2 May, 1998)</i> was a half-blood wizard serving as Potions Master (1981-1996), Defence Against the Dark Arts professor (1996-1997), and Headmaster (1997-1998) of the Hogwarts School of Witchcraft and Wizardry as well as a member of the Order of the Phoenix and a Death Eater. He is the Head of House for Slytherin.
                     </p>
                     <br />
-                </div>
-                <div>
+                </section>
+                <section>
                     <img src="images/professor sprout.jpg" alt="Ponoma Sprout" id="ps" class="img-reponsive thumb" />
-                </div>
+                </section>
                 <p>
                     <strong>Professor Pomona Sprout</strong> <i>(b. 15 May, 1933)</i> was the Professor of Herbology at Hogwarts School of Witchcraft and Wizardry; she showed students all the strange herbs and fungi in the greenhouses, and what they were used for. She is the Head of House for Hufflepuff
                 </p>
                 <br />
-                <div>
+                <section>
                     <img src="images/ff.jpg" alt="Filius Flitwick" id="ff" class="img-reponsive thumb" />
-                </div>
+                </section>
                 <p>
                     <strong>Professor Filius Flitwick </strong><i>(b. 17 October 1958 or earlier)</i> was a Part-Goblin wizard who attended Hogwarts School of Witchcraft and Wizardry and was sorted into Ravenclaw House, being an intelligent young man and a model student. ... On 2 May 1998, he partook in the Battle of Hogwarts and defeated many Death Eaters. He is the Head of House for Ravenclaw.
                 </p>
-            </div>
+            </section>
+            <br />
+            <br />
         </aside>
 
-        <section>
-            <section id="rightColumn">
-                <h3>By Department</h3>
-                <ul style="font-size:20px">
-                    <li style="list-style-type:none">
-                        <a href="Team.html">Heads of Houses</a>
-                    </li>
-                    <li style="list-style-type:none">
-                        <a href="Instructors.html">Instructor</a>
-                    </li>
-                    <li style="list-style-type:none">
-                        <a href="Administration.html">Administration</a>
-                    </li>
-                    <li style="list-style-type:none">
-                        <a href="Prefects.html">Prefects</a>
-                    </li>
-                </ul>
-            </section>
 
-        </section>
     </main>
 
 
@@ -151,7 +155,7 @@
             </a>
         </div>
 
-        <footer>
+        <footer style="font-weight:normal">
             &copy; Copyright 2020 Rachel Mantei
         </footer>
     </article>

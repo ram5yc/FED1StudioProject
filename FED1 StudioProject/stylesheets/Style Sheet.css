@@ -1,4 +1,7 @@
-﻿
+﻿.active {
+    text-decoration: overline;
+}
+
 .containerMain {
     width: 1200px;
     margin: 0 auto;
@@ -17,16 +20,25 @@ body { /*background*/
     border-top: double;
     border-color: white;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .backgroundOpacity { /*adds shading to background photo*/
     height: 100%;
     border: -50px;
     bottom: 200px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/clock.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/clock.jpg');
     background-repeat: no-repeat;
     background-position: 0 5px 10px 0;
     background-size: cover;
+}
+
+.backgroundOpacityNext { 
+    height: 100%;
+    border: -50px;
+    bottom: 200px;
+  background: rgb(29, 30, 69);
+    background-position: 0 5px 10px 0;
 }
 /*The university sign on left each page*/
 .style {
@@ -38,51 +50,56 @@ body { /*background*/
     font-family: 'IM Fell DW Pica', serif;
 }
 
-#leftColumn{
-    float:left;
+.leftColumn {
     width: 75%;
     border-right: 2px solid white;
+ 
 }
-#rightColumn {
 
+.rightColumn {
+    float: right;
     width: 20%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*PHOTOS FOR TEAM PAGES*/
 #ps {
     float: right;
     height: 200px;
-    margin: 0 10px 0 5px;
+    margin: 0 15px 0 5px;
     border: 5px solid white;
 }
+
 #mm {
     float: right;
     height: 200px;
-    margin-left: 10px;
-    margin: 0 10px 0 5px;
+    margin: 0 5px 0 5px;
     border-left: 30px;
     border: 5px solid white;
 }
+
 #ss {
     float: left;
     height: 200px;
     margin-right: 10px;
-    margin: 0 5px 0 10px;
+    margin: 0 5px 0 15px;
     border-right: 30px;
     border: 5px solid white;
 }
+
 #ff {
     float: left;
     height: 200px;
     margin-right: 10px;
-    margin: 0 5px 0 10px;
+    margin: 0 5px 0 15px;
     border-right: 30px;
     border: 5px solid white;
 }
+
 #hs {
     float: right;
     height: 200px;
-    margin: 0 10px 0 5px;
+    margin: 0 5px 0 5px;
     border: 5px solid white;
 }
 
@@ -90,7 +107,7 @@ body { /*background*/
     float: left;
     height: 200px;
     margin-right: 10px;
-    margin: 0 5px 0 10px;
+    margin: 0 5px 0 15px;
     border-right: 30px;
     border: 5px solid white;
 }
@@ -101,18 +118,19 @@ body { /*background*/
     margin: 0 10px 0 5px;
     border: 5px solid white;
 }
+
 #ab {
     float: left;
     height: 200px;
-    margin-right: 10px;
-    margin: 0 5px 0 10px;
+    margin: 0 10px 0 15px;
     border-right: 30px;
     border: 5px solid white;
 }
+
 #pw {
     float: right;
     height: 200px;
-    margin: 0 10px 0 5px;
+    margin: 0 15px 0 5px;
     border: 5px solid white;
 }
 
@@ -120,38 +138,51 @@ body { /*background*/
     float: left;
     height: 200px;
     margin-right: 10px;
-    margin: 0 5px 0 10px;
+    margin: 0 10px 0 15px;
     border-right: 30px;
     border: 5px solid white;
 }
+
 #cf {
     float: right;
     height: 200px;
-    margin: 0 10px 0 5px;
+    margin: 0 15px 0 5px;
     border: 5px solid white;
 }
+
 h1 {
     text-align: left;
-    color: black;
     font-weight: bold;
     font-size: 45px;
+    text-shadow: 3px 4px 5px #000;
 }
 
 h2 {
-    color: ghostwhite;
     text-align: center;
     font-size: 45px;
     padding-left: 100px;
-    text-decoration: double;
+    text-decoration: underline;
 }
 
 h3 {
-    text-align: center; 
+    text-align: center;
     font-size: 25px;
     color: white;
 }
-.small{
+
+h7 {
+    color: ghostwhite;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.small {
     font-size: 15px;
+}
+
+.specialLineHeight {
+    line-height: 25pt;
 }
 
 header h1, header p { /*top left of page*/
@@ -159,7 +190,7 @@ header h1, header p { /*top left of page*/
 }
 
 header h1 { /*Top left of the page*/
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
     font-size: 2em;
     color: black;
     text-align: left;
@@ -179,6 +210,7 @@ p { /*all paragraphs*/
     font-size: 20px;
     font-weight: bold;
     color: ghostwhite;
+    padding: 0 10px 0 10px;
 }
 
 .bio section { /*about us and all under*/
@@ -186,24 +218,25 @@ p { /*all paragraphs*/
     margin: 0 auto;
 }
 
-.quidditch{ /*photo on home page*/
+.quidditch { /*photo on home page*/
     float: left;
     height: 250px;
     margin: 0 20px 0 20px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 0px 0px 10px 10px #000;
 }
 
 .hogsmeade { /*photo on home page*/
     float: right;
     height: 200px;
-    margin-right: 20px;
-    box-shadow: 10px 10px 5px #ccc;
+    margin: 0 20px 0 20px;
+    box-shadow: 0px 0px 10px 10px #000;
 }
+
 .hogwarts {
     float: left;
     height: 200px;
     margin: 0 20px 0 20px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 0px 0px 10px 10px #000;
 }
 
 .top-social { /*top right social media*/
@@ -213,7 +246,7 @@ p { /*all paragraphs*/
     padding-top: 50px;
     padding-right: 5px;
     height: 150px;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .bottom-social { /*top right social media*/
@@ -231,7 +264,6 @@ p { /*all paragraphs*/
     padding-right: 0.2em;
     padding-left: 0.4em;
     border-right: 1px solid #009;
-    margin: 0;
 }
 
     #navlist li.last {
@@ -251,11 +283,16 @@ p { /*all paragraphs*/
     }
 
         #navlist a:hover {
-            color: #a30bb4;
+            color: rgb(185, 175, 42);
             text-decoration: underline;
         }
-
 body section article { /*text in contact footer section*/
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+}
+body article {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     color: black;
@@ -267,7 +304,6 @@ body main section div { /*text within boxes on Class page*/
 }
 
 footer {
-    font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 20px;
     font-family: 'Times New Roman';
@@ -290,7 +326,8 @@ footer {
     min-height: 0px;
     background-color: white;
     padding-top: 10px;
-    text-align:center;
+    text-align: center;
+    font-weight: bold;
 }
 
 .headerOverlay { /*FOR HEADING AND PHOTO IN TOP LEFT*/
@@ -299,12 +336,15 @@ footer {
     background-size: 150px;
     background-position: 3% center;
     z-index: 1030;
+    padding: 20px;
 }
 /*FOR TABLE IN CLASSES*/
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td, th {
@@ -312,13 +352,15 @@ td, th {
     text-align: center;
     padding: 3px, 3px, 3px, 2px;
 }
-td{
-    background-color:#5c5959;
+
+td {
+    background-color: #5c5959;
     opacity: .8;
-    
+    padding: 10px;
 }
-th{
-    background-color:white;
+
+th {
+    background-color: white;
 }
 /*END TABLE FOR CLASSES*/
 body section section { /* contact page email to address*/
@@ -330,9 +372,8 @@ body section section { /* contact page email to address*/
 .box {
     float: left;
     width: 30%;
-    margin-left: 5px;
-    margin-top: 10px;
-    padding: 10px;
+    margin: 10px 5px 20px 20px;
+    padding: 2px;
     border: 2px solid white;
     height: 200px;
     color: white;
@@ -340,17 +381,28 @@ body section section { /* contact page email to address*/
 /*END FOR CLASSES REGION*/
 
 /*ID's for box to pop to and change between screens*/
-#one{
+#one {
+    color: rgb(185, 175, 42);
 }
+
 #two {
+    color: rgb(185, 175, 42);
 }
+
 #three {
+    color: rgb(185, 175, 42);
 }
+
 #four {
+    color: rgb(185, 175, 42);
 }
+
 #five {
+    color: rgb(185, 175, 42);
 }
+
 #six {
+    color: rgb(185, 175, 42);
 }
 /*FOR CLASS TO POP TO SECTION*/
 
@@ -360,26 +412,24 @@ body section section { /* contact page email to address*/
 /*region for social media*/
 
 a:hover {
-    color: blue;
+    background-color: rgb(103, 103, 103);
     text-decoration: underline;
 }
 
 
 a:link {
-    color: blue;
-    background-color: transparent;
+    color: rgb(169, 160, 7);
     text-decoration: none;
 }
 
 a:visited {
-    color: blue;
+    color: rgb(169, 160, 7);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:active {
     color: purple;
-    background-color: transparent;
     text-decoration: underline;
 }
 

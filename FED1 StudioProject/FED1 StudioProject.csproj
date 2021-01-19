@@ -75,6 +75,7 @@
     <Content Include="images\cornelius fudge.jpg" />
     <Content Include="images\Dolores_Umbridge.JPG.jpg" />
     <Content Include="images\dumbledore.jpg" />
+    <Content Include="images\favicon.ico" />
     <Content Include="images\ff.jpg" />
     <Content Include="images\hogsmeade.jpg" />
     <Content Include="images\hogwarts.jpg" />
