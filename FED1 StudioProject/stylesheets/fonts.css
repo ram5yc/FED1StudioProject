@@ -1,13 +1,16 @@
-﻿body {
+﻿
+
+body {
    
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'IM Fell DW Pica', serif;
+    color: black;
 }
 
 body main {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'IM Fell DW Pica', serif;
     font-size: 30px;
     text-align: center;
 }
@@ -16,23 +19,24 @@ font-size: 16px;
 }
 
 body section article section p {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-    font-family: 'Oswald', sans-serif;
+
 }
 h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'IM Fell DW Pica', serif;
+    color: rgb(185, 175, 42);
 }
 h4 {
-    font-family: 'Oswald', sans-serif;
+font-family: 'IM Fell DW Pica', serif;
     font-size: 35px;
     color: black;
     padding-left: 30px;
 }
 h5 {
-    font-family: 'Oswald', sans-serif;
+font-family: 'IM Fell DW Pica', serif;
     color: black;
     font-size: 35px;
 }
