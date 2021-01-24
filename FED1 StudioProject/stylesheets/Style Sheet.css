@@ -412,7 +412,6 @@ body section section { /* contact page email to address*/
 /*region for social media*/
 
 a:hover {
-    background-color: rgb(103, 103, 103);
     text-decoration: underline;
 }
 
@@ -522,4 +521,14 @@ a:active {
 #lightbox-content img {
     border: 10px solid gray;
     margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#map{
+    height: 300px;
+    width: 80%;
+    padding: 0 0 10px 50px;
+    text-align: center;
 }
