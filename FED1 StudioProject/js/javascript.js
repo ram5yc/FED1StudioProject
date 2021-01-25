@@ -17,19 +17,4 @@ $(".thumb").on("click", function () {
 
 }); */
 
-var map;
-
-function initMap(){
-//map options
-map = new google.maps.Map(document.getElementById("map"), {
-center:  {lat: 38.9667, lng: 94.6169},
-zoom: 4
-});
-
-
-//add marker
-const marker = new google.maps.Marker({
-    position: {lat: 38.963570, lng: -94.607162},
-    map: map,
-});
 }
