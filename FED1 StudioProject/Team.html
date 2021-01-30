@@ -12,8 +12,6 @@
     <!--Favicon-->
     <link rel="icon" href="/images/favicon.ico" />
 
-    <!-- Bootstrap Theme -->
-    <link href="css/bootstrap-flatly-theme.min.css" rel="stylesheet" />
     <link href="stylesheets/Style Sheet.css" rel="stylesheet" /><!--Style Sheet-->
 
     <link href="stylesheets/fonts.css" rel="stylesheet" /><!--FONTS-->
@@ -73,7 +71,7 @@
 
     <main class="backgroundOpacityNext">
 
-        <aside class="rightColumn">
+        <aside class="rightColumn two">
             <h3>By Department</h3>
             <ul style="font-size:20px">
                 <li style="list-style-type:none">
@@ -91,7 +89,7 @@
             </ul>
         </aside>
 
-        <aside class="leftColumn container">
+        <aside class="leftColumn container one">
             <h2>Heads of Houses</h2>
             <section>
                 <img src="images/mm.jpg" alt="Minerva McGonogall" id="mm" class="img-reponsive thumb" />
@@ -141,7 +139,9 @@
         <br />
         <strong>Phone Number:</strong> <a href="tel:01-81685753097">816-857-5309</a>
         <br />
-        <strong>Address:</strong> <a href="http://maps.google.com/?q=1200 1740 W 92 St, Kansas City, MO 64114" target="_blank">1740 W 92 St, Kansas City, MO 64114</a>
+        <section style="padding-left: 5px">
+            <strong style="color:black">Address:</strong> <a href="http://maps.google.com/?q=1200 1740 W 92 St, Kansas City, MO 64114" target="_blank">1740 W 92 St, Kansas City, MO 64114</a>
+        </section>
 
         <div class="bottom-social">
             <a href="https://www.facebook.com/learnwithus">
@@ -155,10 +155,23 @@
             </a>
         </div>
 
+        <div id="lightbox-container">
+            <p>Click anywhere to close</p>
+            <!--Lightbox content = container for the larger image-->
+            <div id="lightbox-content">
+                <!--<img> will be inserted here when a thumbnail is clicked-->
+            </div>
+        </div>
+
+        <br />
+
         <footer style="font-weight:normal">
             &copy; Copyright 2020 Rachel Mantei
         </footer>
     </article>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script src="js/boostrap.min.js"></script>
     <!--JAVASCRIPT CODE-->
