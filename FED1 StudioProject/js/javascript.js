@@ -18,3 +18,4 @@ $(".thumb").on("click", function () {
     });
 
 });
+
