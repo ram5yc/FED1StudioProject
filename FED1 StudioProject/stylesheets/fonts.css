@@ -27,6 +27,7 @@ h3 {
 h2 {
     font-family: 'IM Fell DW Pica', serif;
     color: rgb(185, 175, 42);
+    padding-bottom: .5em;
 }
 h4 {
 font-family: 'IM Fell DW Pica', serif;
@@ -42,4 +43,5 @@ font-family: 'IM Fell DW Pica', serif;
 h6 {
     font-family: 'IM Fell DW Pica', serif;
     color: rgb(185, 175, 42);
+    padding-bottom: .5em;
 }

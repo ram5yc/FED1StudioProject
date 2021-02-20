@@ -2,6 +2,21 @@
     text-decoration: overline;
 }
 
+.top-social { /*top right social media*/
+    position: fixed;
+    height: 150px;
+    font-size: 2em;
+    right: 30px;
+    padding-top: 8em;
+}
+.top-social2 {
+    position: fixed;
+    height: 150px;
+    font-size: 2em;
+    right: 30px;
+    padding-top: 10.8em;
+}
+
 .containerMain {
     width: 1200px;
     margin: 0 auto;
@@ -9,7 +24,6 @@
     border: 10px solid #010101;
     background: white;
 }
-
 
 body { /*background*/
     background-color: white;
@@ -32,6 +46,7 @@ body { /*background*/
     background-repeat: no-repeat;
     background-position: 0 5px 10px 0;
     background-size: cover;
+    padding-bottom: 5em;
 }
 
 .backgroundOpacityNext {
@@ -49,22 +64,27 @@ body { /*background*/
     font-size: 25px;
     color: black;
     font-family: 'IM Fell DW Pica', serif;
+    padding-top: .5em;
 }
 
 .leftColumn {
-    width: 65%;
-    border-right: 2px solid white;
+    width: 80%;
+    border-right: 3px solid white;
+    padding-bottom: 3em
 }
 
 .rightColumn {
     float: right;
-    width: 30%;
+    width: 20%;
     font-family: 'Montserrat', sans-serif;
     padding-left: 15px;
     list-style-type: none;
+    padding-bottom: 1em;
+    padding-top: .5em;
 }
 
 .teamview {
+    padding-top: 1em;
     font-size: 20px;
     list-style-type: none;
 }
@@ -167,7 +187,6 @@ h1 {
 h2 {
     text-align: center;
     font-size: 45px;
-    padding-left: 100px;
     text-decoration: underline;
 }
 
@@ -176,7 +195,6 @@ h6 {
     font-size: 45px;
     text-decoration: underline;
     color: rgb(185, 175, 42);
-    padding-left: 70px;
 }
 
 h3 {
@@ -185,13 +203,6 @@ h3 {
     color: white;
 }
 
-.one {
-    flex-grow: 7;
-}
-
-.two {
-    flex-grow: 3;
-}
 
 .whole {
     display: flex;
@@ -269,16 +280,6 @@ p { /*all paragraphs*/
     box-shadow: 0px 0px 10px 10px #000;
 }
 
-.top-social { /*top right social media*/
-    position: relative;
-    z-index: 300;
-    float: right;
-    padding-top: 50px;
-    padding-right: 5px;
-    height: 150px;
-    font-size: 2em;
-}
-
 .bottom-social { /*top right social media*/
     position: relative;
     z-index: 300;
@@ -342,6 +343,10 @@ footer {
     text-align: left;
     height: 100%;
     margin: 0;
+    background-attachment: fixed;
+    min-height: 0px;
+    background-color: white;
+    border-top: 20px;
 }
 
 .brand-contact { /*For border on top of page*/
@@ -352,16 +357,13 @@ footer {
 }
 
 .brand-contact-bottom { /*For border below the page*/
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 0px;
-    background-color: white;
-    padding-top: 10px;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
+    padding-top: 2em;
 }
-
+#footerPadding{
+    padding-bottom: 3em;
+}
 .headerOverlay { /*FOR HEADING AND PHOTO IN TOP LEFT*/
     background-image: url('../images/wand.jpg');
     background-repeat: no-repeat;
@@ -405,6 +407,16 @@ body section section { /* contact page email to address*/
     float: left;
     width: 28%;
     margin: 15px 10px 20px 20px;
+    padding: 4px;
+    border: 2px solid white;
+    height: 350px;
+    color: white;
+}
+
+.box2 {
+    float: left;
+    width: 28%;
+    margin: 15px 10px 20px 40px;
     padding: 4px;
     border: 2px solid white;
     height: 350px;
@@ -518,7 +530,7 @@ a, a:link, a:active, a:visited {
 }
 
 .button {
-    font-family: sans-serif;
+    font-family: 'IM Fell DW Pica', serif;
     background: rgba(0,0,0,.5);
     height: 100%;
     width: 20px;
@@ -527,6 +539,8 @@ a, a:link, a:active, a:visited {
     left: 0;
     top: 0;
     cursor: pointer;
+    font-size: 20px;
+    padding-right: .5em;
 }
 
 .vertical-text {
